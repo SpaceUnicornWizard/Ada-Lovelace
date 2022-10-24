@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CardView: View {
-    var idea: Idea
+    var idea: any Idea
     var body: some View {
         VStack(alignment: .leading) {
             HStack {
@@ -31,6 +31,7 @@ struct CardView: View {
 
 struct CardView_Previews: PreviewProvider {
     static var previews: some View {
-        CardView(idea: Idea(name: "PreviewCategory", description: "PreviewDescription", counter: 0, icon: "", color: .red))
+        CardView(idea:
+                    Gift(name: "PreviewCategory", description: "PreviewDescription", counter: 0, icon: "", color: .red))
     }
 }
