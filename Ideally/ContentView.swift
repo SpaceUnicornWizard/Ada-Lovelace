@@ -7,11 +7,6 @@
 
 import SwiftUI
 
-private var ideas = [
-    Idea(name: "Gifts", description: "", counter: 0, icon: "gift.fill", color: .red),
-    Idea(name: "Events", description: "", counter: 0, icon: "ticket.fill", color: .purple),
-    Idea(name: "Postcards", description: "", counter: 0, icon: "mail.fill", color: .blue)
-]
 
 private var occasions = [
     Occasion(name: "Christmas"),
@@ -22,13 +17,21 @@ private var occasions = [
 ]
 
 struct ContentView: View {
+    
+    
+    private var ideas: [any Idea] = [
+        Gift(name: "Gifts", description: "", counter: 0, icon: "gift.fill", color: .red),
+        Event(name: "Events", description: "", counter: 0, icon: "ticket.fill", color: .purple),
+        Postcard(name: "Postcards", description: "", counter: 0, icon: "mail.fill", color: .blue)
+    ]
+    
     var body: some View {
         NavigationView {
                 Form {
                     Section {
                         LazyVGrid(columns: [GridItem(.adaptive(minimum: 145), spacing: 20)], spacing: 0) {
-                            ForEach(ideas) { idea in
-                                CardView(idea: idea)
+                            ForEach(ideas, id: \.id) { idea in
+                                    CardView(idea: idea)
                             }
                         }
                     } header: {

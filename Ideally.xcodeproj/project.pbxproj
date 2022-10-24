@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9A13C5642906C9570080A48E /* Gift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A13C5632906C9570080A48E /* Gift.swift */; };
+		9A13C5662906DC3F0080A48E /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A13C5652906DC3F0080A48E /* Event.swift */; };
+		9A13C5682906DC720080A48E /* Postcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A13C5672906DC720080A48E /* Postcard.swift */; };
 		9A330C67290400DD0013E2B5 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A330C66290400DD0013E2B5 /* CardView.swift */; };
 		9A330C69290407A40013E2B5 /* Idea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A330C68290407A40013E2B5 /* Idea.swift */; };
 		9A330C6B29042C590013E2B5 /* Occasion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A330C6A29042C590013E2B5 /* Occasion.swift */; };
@@ -39,6 +41,8 @@
 
 /* Begin PBXFileReference section */
 		9A13C5632906C9570080A48E /* Gift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gift.swift; sourceTree = "<group>"; };
+		9A13C5652906DC3F0080A48E /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		9A13C5672906DC720080A48E /* Postcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Postcard.swift; sourceTree = "<group>"; };
 		9A330C66290400DD0013E2B5 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		9A330C68290407A40013E2B5 /* Idea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Idea.swift; sourceTree = "<group>"; };
 		9A330C6A29042C590013E2B5 /* Occasion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Occasion.swift; sourceTree = "<group>"; };
@@ -151,6 +155,8 @@
 				9A330C68290407A40013E2B5 /* Idea.swift */,
 				9A330C6A29042C590013E2B5 /* Occasion.swift */,
 				9A13C5632906C9570080A48E /* Gift.swift */,
+				9A13C5652906DC3F0080A48E /* Event.swift */,
+				9A13C5672906DC720080A48E /* Postcard.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -289,6 +295,8 @@
 				9AA428982903E76F000E5DAF /* ContentView.swift in Sources */,
 				9A330C67290400DD0013E2B5 /* CardView.swift in Sources */,
 				9A13C5642906C9570080A48E /* Gift.swift in Sources */,
+				9A13C5662906DC3F0080A48E /* Event.swift in Sources */,
+				9A13C5682906DC720080A48E /* Postcard.swift in Sources */,
 				9AA428962903E76F000E5DAF /* IdeallyApp.swift in Sources */,
 				9A330C6B29042C590013E2B5 /* Occasion.swift in Sources */,
 			);
