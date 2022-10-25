@@ -43,7 +43,15 @@ struct ContentView: View {
                             /*@START_MENU_TOKEN@*/Text(occasion.name)/*@END_MENU_TOKEN@*/
                         }
                     } header: {
-                        Text("Occasions")
+                        HStack {
+                            Text("Occasions")
+                            Spacer()
+                            Button(action: {
+                                // create new occasion
+                            }) {
+                                Image(systemName: "plus")
+                            }
+                        }
                     }
                     .headerProminence(.increased)
                 }
