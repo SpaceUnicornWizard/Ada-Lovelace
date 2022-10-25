@@ -25,32 +25,65 @@ struct ContentView: View {
         Postcard(name: "Postcards", description: "", counter: 0, icon: "mail.fill", color: .blue)
     ]
     
+//    var body: some View {
+//        NavigationView {
+//            Form {
+//                Section {
+//                    LazyVGrid(columns: [GridItem(.adaptive(minimum: 145), spacing: 20)], spacing: 0) {
+//                        ForEach(ideas, id: \.id) { idea in
+//                            CardView(idea: idea)
+//                        }
+//                    }
+//                } header: {
+//                    Text("Ideas")
+//                }
+//                .headerProminence(.increased)
+//                Section {
+//                    List(occasions) { occasion in
+//                        /*@START_MENU_TOKEN@*/Text(occasion.name)/*@END_MENU_TOKEN@*/
+//                    }
+//                } header: {
+//                    HStack {
+//                        Text("Occasions")
+//                        Spacer()
+//                        Button(action: { print("Hello World")}) {
+//                            Image(systemName: "plus")
+//                        }
+//                    }
+//                }
+//                .headerProminence(.increased)
+//            }
+//            .navigationTitle("Your Collection")
+//        }
+//    }
+    
+    
+    let columns = [
+            GridItem(.adaptive(minimum: 150))
+        ]
+
     var body: some View {
-        NavigationView {
-                Form {
-                    Section {
-                        LazyVGrid(columns: [GridItem(.adaptive(minimum: 145), spacing: 20)], spacing: 0) {
-                            ForEach(ideas, id: \.id) { idea in
-                                    CardView(idea: idea)
-                            }
-                        }
-                    } header: {
-                        Text("Ideas")
-                    }
-                    .headerProminence(.increased)
-                    Section {
-                        List(occasions) { occasion in
-                            /*@START_MENU_TOKEN@*/Text(occasion.name)/*@END_MENU_TOKEN@*/
-                        }
-                    } header: {
-                        Text("Occasions")
-                    }
-                    .headerProminence(.increased)
+        VStack (alignment: .leading) {
+            Text("Your Collection")
+                .font(.largeTitle)
+                .fontWeight(.bold)
+                .padding()
+            Text("Ideas")
+                .font(.title)
+                .fontWeight(.semibold)
+            LazyVGrid(columns: columns, spacing: 5) {
+                ForEach(ideas, id: \.id) { idea in
+                    CardView(idea: idea)
                 }
-                .navigationTitle("Your Collection")
-            
+            }
+            .padding(.horizontal)
+            Spacer()
         }
     }
+
+    
+    
+    
 }
 
 struct ContentView_Previews: PreviewProvider {

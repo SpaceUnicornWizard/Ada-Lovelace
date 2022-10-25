@@ -23,9 +23,10 @@ struct CardView: View {
             Text(idea.name) //category
         }
         .padding()
-        .background(Color.secondary)
+        .background(Color(red: 242/255, green: 242/255, blue: 247/255)) //#f2f2f7
+        //.background(.white)
         .cornerRadius(15)
-        .frame(width: 150, height: 100)
+        .frame(width: 165, height: 100)
     }
 }
 
