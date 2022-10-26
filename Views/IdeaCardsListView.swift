@@ -102,7 +102,7 @@ struct IdeaCardsListView: View {
     
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct IdeaCardListView_Previews: PreviewProvider {
     static var previews: some View {
         IdeaCardsListView()
     }

@@ -1,5 +1,5 @@
 //
-//  HomeView.swift
+//  ContentView.swift
 //  Ideally
 //
 //  Created by Pietro Ciuci on 26/10/22.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct HomeView: View {
+struct ContentView: View {
     
     var occasions = [
         Occasion(name: "Christmas"),
@@ -51,8 +51,8 @@ struct HomeView: View {
     }
 }
 
-struct HomeView_Previews: PreviewProvider {
+struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeView()
+        ContentView()
     }
 }
