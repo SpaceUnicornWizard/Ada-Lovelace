@@ -23,6 +23,8 @@
 		9AA428A72903E770000E5DAF /* IdeallyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA428A62903E770000E5DAF /* IdeallyTests.swift */; };
 		9AA428B12903E770000E5DAF /* IdeallyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA428B02903E770000E5DAF /* IdeallyUITests.swift */; };
 		9AA428B32903E770000E5DAF /* IdeallyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA428B22903E770000E5DAF /* IdeallyUITestsLaunchTests.swift */; };
+		BF22B85B2908124800A42029 /* IdeaCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF22B85A2908124800A42029 /* IdeaCardView.swift */; };
+		BF22B85D2908212700A42029 /* AnotherIdeaCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF22B85C2908212700A42029 /* AnotherIdeaCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,8 @@
 		9AA428AC2903E770000E5DAF /* IdeallyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IdeallyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AA428B02903E770000E5DAF /* IdeallyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeallyUITests.swift; sourceTree = "<group>"; };
 		9AA428B22903E770000E5DAF /* IdeallyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeallyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BF22B85A2908124800A42029 /* IdeaCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeaCardView.swift; sourceTree = "<group>"; };
+		BF22B85C2908212700A42029 /* AnotherIdeaCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherIdeaCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -308,6 +312,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF22B85B2908124800A42029 /* IdeaCardView.swift in Sources */,
+				BF22B85D2908212700A42029 /* AnotherIdeaCardView.swift in Sources */,
 				9A330C69290407A40013E2B5 /* Idea.swift in Sources */,
 				9AA428982903E76F000E5DAF /* IdeaCardsListView.swift in Sources */,
 				9A330C67290400DD0013E2B5 /* IdeaCard.swift in Sources */,
