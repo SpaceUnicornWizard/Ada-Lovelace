@@ -17,3 +17,22 @@ protocol Idea: Identifiable {
     var id: UUID { get }
 }
 
+/*class Ideas: Identifiable {
+    
+    init(name: String = "", description: String = "") {
+        self.name = name
+        self.description = description
+    }
+    
+    var name: String = ""
+    var description: String = ""
+    
+    
+    
+}
+
+class Gifts: Ideas {
+    
+}
+
+var gift: Gifts = Gifts(name: "", description: "")*/
