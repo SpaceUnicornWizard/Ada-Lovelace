@@ -102,7 +102,6 @@
 			children = (
 				9A8D0D22290829A300D89452 /* IdeasOccasionListView.swift */,
 				9A1F8A2F29086F6B0075BFD5 /* IdeaListView.swift */,
-				9A0B8F2629092B0300CB962B /* ContentView.swift */,
 				9AA428972903E76F000E5DAF /* IdeaCardsListView.swift */,
 			);
 			path = Views;
@@ -111,6 +110,7 @@
 		9AA428892903E76F000E5DAF = {
 			isa = PBXGroup;
 			children = (
+				9A0B8F2629092B0300CB962B /* ContentView.swift */,
 				9A0B8F2829092B7E00CB962B /* Components */,
 				9A330C65290400AF0013E2B5 /* Views */,
 				9AA428BF2903E79D000E5DAF /* Models */,
