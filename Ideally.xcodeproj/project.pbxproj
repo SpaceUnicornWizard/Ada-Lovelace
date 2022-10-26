@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9A0B8F2729092B0300CB962B /* ConentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B8F2629092B0300CB962B /* ConentView.swift */; };
+		9A0B8F2729092B0300CB962B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B8F2629092B0300CB962B /* ContentView.swift */; };
 		9A13C5642906C9570080A48E /* Gift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A13C5632906C9570080A48E /* Gift.swift */; };
 		9A13C5662906DC3F0080A48E /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A13C5652906DC3F0080A48E /* Event.swift */; };
 		9A13C5682906DC720080A48E /* Postcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A13C5672906DC720080A48E /* Postcard.swift */; };
@@ -43,7 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9A0B8F2629092B0300CB962B /* ConentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConentView.swift; sourceTree = "<group>"; };
+		9A0B8F2629092B0300CB962B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9A13C5632906C9570080A48E /* Gift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gift.swift; sourceTree = "<group>"; };
 		9A13C5652906DC3F0080A48E /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		9A13C5672906DC720080A48E /* Postcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Postcard.swift; sourceTree = "<group>"; };
@@ -102,7 +102,7 @@
 			children = (
 				9A8D0D22290829A300D89452 /* IdeasOccasionListView.swift */,
 				9A1F8A2F29086F6B0075BFD5 /* IdeaListView.swift */,
-				9A0B8F2629092B0300CB962B /* ConentView.swift */,
+				9A0B8F2629092B0300CB962B /* ContentView.swift */,
 				9AA428972903E76F000E5DAF /* IdeaCardsListView.swift */,
 			);
 			path = Views;
@@ -313,7 +313,7 @@
 				9A330C67290400DD0013E2B5 /* IdeaCard.swift in Sources */,
 				9A13C5642906C9570080A48E /* Gift.swift in Sources */,
 				9A13C5662906DC3F0080A48E /* Event.swift in Sources */,
-				9A0B8F2729092B0300CB962B /* ConentView.swift in Sources */,
+				9A0B8F2729092B0300CB962B /* ContentView.swift in Sources */,
 				9A1F8A3029086F6B0075BFD5 /* IdeaListView.swift in Sources */,
 				9A13C5682906DC720080A48E /* Postcard.swift in Sources */,
 				9AA428962903E76F000E5DAF /* IdeallyApp.swift in Sources */,
